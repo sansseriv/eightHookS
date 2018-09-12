@@ -1,0 +1,123 @@
+.home {
+    background-image: url("home.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin-left: 550px;
+    margin-top: -15px;
+    overflow-y: auto;
+    position: fixed;
+    height: 105vh;
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+.homeAbout {
+    background-image: url("about.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin-left: 550px;
+    margin-top: -15px;
+    overflow-y: auto;
+    position: fixed;
+    height: 105vh;
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+.homeJoin {
+    background-image: url("mag.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: #e5e5e5;
+    margin-top: -15px;
+    margin-left: 900px;
+    overflow-y: auto;
+    position: fixed;
+    height: 105vh;
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+.top {
+    font-family: 'Squada One', cursive;
+    font-size: 30px;
+    position: relative;
+    margin-top:-10px;
+    margin-left: 45px;
+    
+}
+
+a:link {
+    text-decoration:none;
+    color: black;
+}
+
+a:visited {
+    text-decoration:none;
+    color: black;
+}
+
+.container {
+    background-color: #e5e5e5;
+    height: 105vh;
+    width: 100vw;
+    position: fixed;
+    margin: -15px;
+    overflow: hidden;
+}
+.navBar {
+    float: right;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.biggie {
+    position: fixed;
+    padding-left: 40px;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.biggie h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 150px;
+    padding-left: 0px;
+    
+}
+
+.biggie h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: -110px;
+    padding-left: 3px;
+    width: 500px;
+    display: block;
+
+}
+
+.navBar ul {
+    list-style-type: none; 
+    display: block; /*does this fix anything*/
+    float: left;
+    margin: 25px 20px;
+   
+}
+
+.navBar  li {
+    display: inline;
+    padding-right: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.socials h3 {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-bottom: 25px;
+    margin-left:40px;
+    text-decoration-style: none;
+}
